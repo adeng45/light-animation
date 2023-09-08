@@ -3,6 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <!-- Font Awesome CDN link -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
    <link rel="stylesheet" href="style.css">
    <link rel="icon" href="favicon.ico" />
@@ -11,12 +12,12 @@
 <body>
    <div class="container">
       <nav>
-         <div class="logo">folio<b>.</b></div>
+         <div class="logo">Site<b>.</b></div>
          <ul class="navItems">
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">skills</a></li>
-            <li><a href="#">blog</a></li>
+            <li class="home"><a href="#">home</a></li>
+            <li class="about"><a href="#">about</a></li>
+            <li class="skills"><a href="#">skills</a></li>
+            <li class="blog"><a href="#">blog</a></li>
          </ul>
          <div class="links">
             <a href="#"><i class="fab fa-linkedin"></i></a>
@@ -44,7 +45,7 @@
    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
    <script>
       var typingEffect = new Typed(".multiText", {
-         strings : ["programmer", "student", "developer"],
+         strings : ["learner", "developer", "student"],
          loop : true,
          typeSpeed : 100,
          backSpeed : 80,
